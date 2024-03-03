@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Showcase</title>
+    <link rel="stylesheet" href="ECSS.css">
+</head>
+<body>
+    <header>
+        <h1>E-commerce Product Showcase</h1>
+        <div class="search-sort">
+            <input type="text" id="search" placeholder="Search...">
+            <select id="sort">
+                <option value="priceAsc">Price: Low to High</option>
+                <option value="priceDesc">Price: High to Low</option>
+                <option value="nameAsc">Name: A to Z</option>
+                <option value="nameDesc">Name: Z to A</option>
+            </select>
+        </div>
+    </header>
+    <main id="product-list" class="container"></main>
+    <script src="EJS.js"></script>
+</body>
+</html>
